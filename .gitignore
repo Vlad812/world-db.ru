@@ -1,0 +1,11 @@
+### PhpStorm
+.idea/
+
+### Frontend lib
+
+www/public/assets/
+
+### Kohana template
+www/app/cache/
+www/app/logs/
+

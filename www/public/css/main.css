@@ -1,0 +1,257 @@
+
+body {
+
+    background-color: #F8F4D9;
+
+}
+
+.nav > li > a {
+
+    padding: 15px 30px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+    background-color: #ffd6a2;
+}
+
+.head_logo {
+
+    outline: 0px solid red;
+    height: 220px;
+    background-image: url("/public/img/world_map.png");
+    background-repeat: no-repeat;
+}
+
+    /* Адаптивность */
+
+@media (min-width: 268px) {
+
+    .head_logo {
+
+        background-size: 100% 100%;
+        background-position: center;
+
+    }
+
+    .widget-data .wp .top-panel {
+
+        font-size: 12px;
+    }
+
+    .widget-data .wp .top-panel .view-switch {
+
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 15px;
+
+    }
+
+    .widget-data .wp .top-panel .items {
+
+        text-align: center;
+
+    }
+
+    .widget-data .wp .top-panel .view-switch-table,
+    .widget-data .wp .top-panel .view-switch-blocks {
+
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .head_logo {
+        height: 250px;
+        background-size: 60% 100%;
+        background-position: center;
+    }
+
+    .widget-data .wp .top-panel {
+
+        font-size: 13px;
+    }
+
+    .widget-data .wp .top-panel .view-switch-table,
+    .widget-data .wp .top-panel .view-switch-blocks {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .widget-data .wp .top-panel .view-switch {
+
+        text-align: left;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+    
+}
+
+@media (min-width: 970px) {
+
+    .widget-data .wp .top-panel {
+
+        font-size: 14px;
+    }
+
+}
+
+/*-------- */
+
+h1 {
+    color: grey;
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+
+    font-size: 16px;
+    color: #3885c6;
+}
+
+/* Виджет Фильтров */
+
+.wp_filter {
+
+    min-height: 300px;
+
+}
+
+div#submitFilter::after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.body_filter,
+.widget-data .wp,
+.widget-data .wp .top-panel,
+.widget-data .wp .bottom-panel {
+
+    padding: 15px 15px;
+    border: 1px solid rgba(202, 168, 128, 0.46);
+    border-radius: 5px;
+}
+
+
+/*-------- Виджет Данные ------------*/
+
+.widget-data {
+    min-height: 400px;
+}
+
+.widget-data .wp .row {
+
+    margin: 10px 0px;
+}
+
+    /* Top панель */
+
+.widget-data .wp .top-panel {
+
+    color: rgba(45, 31, 10, 0.49);
+    font-weight: bold;
+
+}
+
+
+.widget-data .wp .top-panel  .view-switch {
+
+
+}
+
+.widget-data .wp .top-panel  .view-switch .active {
+    color: rgba(94, 67, 21, 0.49);
+    border: 1px solid rgba(81, 58, 15, 0.49);
+
+}
+
+.widget-data .wp .top-panel .view-switch [data-modeView]:not(.active) {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+        /* Представление - Таблица */
+
+
+.widget-data table.table  tr th {
+
+    vertical-align: middle;
+    text-align: center;
+    color: rgba(45, 31, 10, 0.49);
+    font-size: 12px;
+}
+
+.widget-data table.table tr td {
+
+    vertical-align: middle;
+
+}
+
+th, td:first-child {
+    background: rgba(223, 193, 140, 0.27);
+
+    padding: 10px 20px;
+}
+
+th, td {
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    border-color: #e8e5e1;
+}
+
+td {
+
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+/* Представление - Карточки */
+
+.data-blocks {
+
+    border: 1px solid rgba(202, 168, 128, 0.46);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+.data-blocks .delimiter {
+
+    border-bottom: 1px solid rgba(202, 168, 128, 0.46);
+
+}
+
+.data-blocks .name-item {
+
+    font-weight: bold;
+    color: rgba(66, 53, 21, 0.46);
+
+}
+
+.data-blocks-section .numb {
+
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: rgba(66, 53, 21, 0.46);
+
+}
+
+.data-blocks-section span.name {
+
+    font-weight: bold;
+    color: #43789B;
+
+}
+
+.data-blocks-section span.code {
+
+    color: #43789B;
+}
